@@ -1,6 +1,6 @@
 {
-  "short_name": "Hiccup",
-  "name": "Hiccup Start page",
+  "short_name": "Start",
+  "name": "Steam Start Page",
   "icons": [
     {
       "src": "favicon.ico",
