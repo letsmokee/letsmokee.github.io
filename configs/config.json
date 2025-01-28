@@ -1,7 +1,8 @@
 {
-  "version": "3.0.0",
-  "defaultTitle": "Demo Config",
-  "url": "./configs/config.json",
+  "version": "2.0",
+  "id": "default",
+  "title": "Default Config",
+  "url": "http://localhost:3000/configs/config.json",
   "featured": [
     {
       "name": "Featured Link",
@@ -12,11 +13,11 @@
       "link": "https://designedbyashw.in/test/hiccup"
     },
     {
-      "name": "welcome to hiccup",
+      "name": "One more",
       "link": "https://designedbyashw.in/test/hiccup"
     },
     {
-      "name": "Github",
+      "name": "welcome to hiccup",
       "background": "/assets/card.png",
       "link": "https://github.com/ashwin-pc/hiccup",
       "tags": "space separated tags"
@@ -80,5 +81,8 @@
         }
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "readonly": false
+  }
 }
