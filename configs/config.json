@@ -2,6 +2,7 @@
   "version": "2.0",
   "id": "default",
   "title": "Default Config",
+  "readyonly": false,
   "url": "http://localhost:3000/configs/config.json",
   "featured": [
     {
