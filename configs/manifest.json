@@ -4,7 +4,6 @@
     {
       "id": "default",
       "title": "Default",
-	  "readonly": "false",
       "remote": {
         "type": "url",
         "url": "./configs/config.json"
