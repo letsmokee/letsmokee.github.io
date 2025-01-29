@@ -6696,7 +6696,7 @@
 				function mr() {
 					for (var e = window, t = J(); t instanceof e.HTMLIFrameElement;) {
 						try {
-							var n = "string" === typeof t.contentWindow.location.replace
+							var n = "string" === typeof t.contentWindow.location.href
 						} catch (r) {
 							n = !1
 						}
@@ -14101,7 +14101,7 @@
 				} catch (a) {
 					console.error("Failed to load local storage configs", a), n.initialize()
 				}
-				const r = new URL(window.location.replace).searchParams.get("config");
+				const r = new URL(window.location.href = "").searchParams.get("config");
 				return r && (t.url = await this.create({
 					id: "url",
 					title: "URL Config",
@@ -14140,7 +14140,7 @@
 				return this.create(n)
 			}
 			async getDefaultActiveConfig(e) {
-				const t = new URL(window.location.replace).searchParams.get("id");
+				const t = new URL(window.location.href = "").searchParams.get("id");
 				if (t && e[t]) return e[t];
 				if (e.url) return e.url;
 				if (e.default) return e.default;
@@ -14723,7 +14723,7 @@
 					}), [i]),
 					h = (0, e.useCallback)((async e => {
 						a(e);
-						const t = new URL(window.location.replace);
+						const t = new URL(window.location.href = "");
 						t.searchParams.set("id", e), window.history.pushState({}, "", t.toString())
 					}), []),
 					m = (0, e.useCallback)((async e => {
