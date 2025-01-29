@@ -1,84 +1,42 @@
 {
   "version": "3.0.0",
-  "defaultTitle": "Demo Config",
+  "defaultTitle": "Steam Startup",
   "url": "./configs/config.json",
   "featured": [
     {
-      "name": "Featured Link",
-      "link": "https://designedbyashw.in/test/hiccup"
+      "name": "FACEIT",
+      "link": "https://www.faceit.com/",
+      "background": "/assets/faceit.png"
     },
     {
-      "name": "Another Featured link",
-      "link": "https://designedbyashw.in/test/hiccup"
+      "name": "FACEIT Tracker",
+      "link": "https://faceittracker.net/",
+      "background": "/assets/faceitfinder.png"
     },
     {
-      "name": "welcome to hiccup",
-      "link": "https://designedbyashw.in/test/hiccup"
+      "name": "FACEIT Analyser",
+      "link": "https://mobile.fastmm.win/en/services/find-faceit",
+      "background": "/assets/faceitanalyser.jpg"
     },
     {
-      "name": "Github",
-      "background": "/assets/card.png",
-      "link": "https://github.com/ashwin-pc/hiccup",
-      "tags": "space separated tags"
+      "name": "CSGO Nades",
+      "link": "https://www.csgonades.com/",
+      "background": "/assets/csgonades.png"
+    },
+    {
+      "name": "Steam Profile",
+      "link": "https://steamcommunity.com/my",
+      "background": "/assets/steam.png"
     }
   ],
-  "categories": [
-    {
-      "title": "Category 1",
-      "links": [
-        {
-          "name": "Link 1",
-          "link": "https://designedbyashw.in/test/hiccup"
-        },
-        {
-          "name": "Link 2",
-          "link": "https://designedbyashw.in/test/hiccup"
-        }
-      ]
-    },
-    {
-      "title": "Category 2",
-      "links": [
-        {
-          "name": "Link 1",
-          "link": "https://designedbyashw.in/test/hiccup"
-        },
-        {
-          "name": "Link 2",
-          "link": "https://designedbyashw.in/test/hiccup"
-        }
-      ]
-    },
-    {
-      "title": "Category 3",
-      "links": [
-        {
-          "name": "Link 1",
-          "link": "https://designedbyashw.in/test/hiccup",
-          "tags": "more searchable tags"
-        }
-      ]
-    },
-    {
-      "title": "Category 4",
-      "links": [
-        {
-          "name": "Link 1",
-          "link": "https://designedbyashw.in/test/hiccup"
-        },
-        {
-          "name": "Link 2",
-          "link": "https://www.google.com/search?q=I%27m+Feeling+Curious&csf=b&ct=ifl&cad=2:curious&ei=iin8XpLlKJi80PEPi9GtyAo&ved=0ahUKEwiS0oCHs6vqAhUYHjQIHYtoC6kQnRsIDg&rct=j"
-        },
-        {
-          "name": "Link 3",
-          "link": "https://designedbyashw.in/test/hiccup"
-        },
-        {
-          "name": "Just a long link name to make sure we are safe",
-          "link": "https://designedbyashw.in/test/hiccup"
-        }
-      ]
-    }
-  ]
+  "categories": [],
+  "metadata": {
+    "search": [
+      {
+        "type": "google",
+        "url": "https://google.com/search?q=",
+        "name": "Google"
+      }
+    ]
+  }
 }
