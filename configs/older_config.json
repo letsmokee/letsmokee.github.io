@@ -1,0 +1,42 @@
+{
+  "version": "3.0.0",
+  "defaultTitle": "Steam Startup",
+  "url": "./configs/config.json",
+  "featured": [
+    {
+      "name": "FACEIT",
+      "link": "https://www.faceit.com/",
+      "background": "/assets/faceit.png"
+    },
+    {
+      "name": "FACEIT Tracker",
+      "link": "https://faceittracker.net/",
+      "background": "/assets/faceitfinder.png"
+    },
+    {
+      "name": "FACEIT Analyser",
+      "link": "https://mobile.fastmm.win/en/services/find-faceit",
+      "background": "/assets/faceitanalyser.jpg"
+    },
+    {
+      "name": "CSGO Nades",
+      "link": "https://www.csgonades.com/",
+      "background": "/assets/csgonades.png"
+    },
+    {
+      "name": "Steam Profile",
+      "link": "https://steamcommunity.com/my",
+      "background": "/assets/steam.png"
+    }
+  ],
+  "categories": [],
+  "metadata": {
+    "search": [
+      {
+        "type": "google",
+        "url": "https://google.com/search?q=",
+        "name": "Google"
+      }
+    ]
+  }
+}
