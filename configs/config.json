@@ -27,6 +27,11 @@
       "name": "Steam Profile",
       "link": "https://steamcommunity.com/my",
       "background": "/assets/steam.png"
+    },
+	    {
+      "name": "Leetify",
+      "link": "https://leetify.com/home/",
+      "background": "/assets/leetify.png"
     }
   ],
   "categories": [],
