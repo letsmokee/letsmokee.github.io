@@ -32,6 +32,11 @@
       "name": "Leetify",
       "link": "https://leetify.com/home/",
       "background": "/assets/leetify.png"
+    },
+	    {
+      "name": "Warmup Servers",
+      "link": "https://www.warmupserver.net/quickjoin.php",
+      "background": "/assets/warmup.jpg"
     }
   ],
   "categories": [],
