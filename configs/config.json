@@ -37,6 +37,11 @@
       "name": "Warmup Servers",
       "link": "https://www.warmupserver.net/quickjoin.php",
       "background": "/assets/warmup.jpg"
+    },
+	    {
+      "name": "Links",
+      "link": "https://justpaste.it/abj96",
+      "background": "/assets/justpaste.png"
     }
   ],
   "categories": [],
